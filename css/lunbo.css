@@ -1,0 +1,28 @@
+*{margin:0;padding:0;list-style="none";}
+#banner {
+  width: 100%;
+  overflow: hidden;
+  position: relative; }
+  #banner ul {
+    width: 600%;
+    display: flex; }
+    #banner ul li {
+      -webkit-flex-grow: 1; }
+      #banner ul li img {
+        width: 100%; }
+  #banner p {
+    width: 25%;
+    height: 15px;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    margin-left: -12.5%;
+    display: flex;
+    -webkit-justify-content: space-around; }
+    #banner p span {
+      width: 10px;
+      height: 10px;
+      background: rgba(0, 0, 0, 0.5);
+      border-radius: 50%; }
+      #banner p span.on {
+        background: #fff; }
